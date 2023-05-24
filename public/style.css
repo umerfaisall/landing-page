@@ -1,0 +1,148 @@
+.navbar{
+    
+    background-color: rgb(27, 23, 23);
+    background: padding-right: 15px; padding-left: 60px
+    padding: 3px;
+
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+    padding-left:  40px;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+  margin: 4px 20px 5px 10px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    
+}
+.navbar li a:hover{
+    /* color: yellow; */
+    opacity: 1;
+}
+input{
+    padding: 3px 3px;
+}
+.navbar input{
+    padding: 10px;
+    width: 500px;
+    border:none ;
+
+}
+.navbar .search button{
+    float: right;
+    padding: 10px;
+margin-top: px;    border: none;
+}
+body{
+    border: none;
+}
+.text {
+    position: absolute;
+    top: 100px;
+   color: white;
+   padding: 70px;
+}
+.text h4{
+  
+
+   font-size: 60px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-bottom: 5px;
+
+}
+.text p{
+    font-size:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+
+}
+.text button{
+    padding: 10px;
+    width:130px ;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+/* .text button:hover{
+    color: yellow;
+}
+    */
+
+/* .footer{
+    background-color:
+    border: none;
+    padding: 25px;
+}
+.footdiv{
+    display: flex; align-items: center; justify-content: space-between;
+
+} */
+.footer{
+    background-color: rgb(23, 21, 21);
+    padding: 0;
+    margin: 0;
+    bos box-sizing: border-box;
+
+}
+.footdiv{
+    width: 100%; 
+    padding: 20px 20px 20px;
+}
+.socialicons{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+}
+.socialicons a{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 20px;
+   color: black;
+   opacity: 0.9;
+   padding: 10px;
+}
+.socialicons a:hover{
+    background-color: rgb(40, 39, 39);
+    transition: o.5s;
+}
+.socialicons a:hover i{
+    color: white;
+}
+.footernav{
+    padding: 12px;
+}
+.footernav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.footernav ul li a{
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    margin: 21px;
+    font-size: 15px;
+    opacity: 0.7;
+}
+.footernav ul li a:hover{
+   opacity: 1;
+}
+.foterbottom{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
